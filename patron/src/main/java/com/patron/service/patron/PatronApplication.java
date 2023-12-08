@@ -1,0 +1,17 @@
+package com.patron.service.patron;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+
+
+
+@SpringBootApplication
+@EnableFeignClients
+public class PatronApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PatronApplication.class, args);
+	}
+
+}
